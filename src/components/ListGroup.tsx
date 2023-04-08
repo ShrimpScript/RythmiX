@@ -4,7 +4,7 @@ function ListGroup() {
   const items = ["Test1", "Test2", "Test3"];
   return (
     <>
-      <h1>List Thing</h1>
+      <h1>ListGroup</h1>
       <ul className="list-group">
         {items.map((item) => (
           <li>{item}</li>
