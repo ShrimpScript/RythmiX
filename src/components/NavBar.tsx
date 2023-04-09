@@ -1,13 +1,15 @@
 import "bootstrap/dist/js/bootstrap.bundle.js";
+import "styles/NavBar.css";
+import { BrowserRouter, Route, Link } from "react-router-dom";
 
 function NavBar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="#" style={{ color: "white" }}>
             <img
-              src="./src/assets/logo.svg"
+              src="./src/assets/arcade.svg"
               alt="Logo"
               width="30"
               height="30"
@@ -29,12 +31,17 @@ function NavBar() {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="/"
+                  style={{ color: "white" }}
+                >
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#" style={{ color: "white" }}>
                   Features
                 </a>
               </li>
@@ -45,12 +52,13 @@ function NavBar() {
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
+                  style={{ color: "white" }}
                 >
                   Upload Music
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="YouTube">
                       YouTube
                     </a>
                   </li>
