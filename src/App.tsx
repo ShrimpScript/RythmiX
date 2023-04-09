@@ -7,6 +7,7 @@ import Features from "./pages/Features";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Player from "./pages/Player";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="Player" element={<Player />} />
         <Route path="Features" element={<Features />} />
+        <Route path="HomePage" element={<HomePage />} />
       </Routes>
     </Router>
   );

@@ -34,7 +34,7 @@ function NavBar() {
                 <a
                   className="nav-link active"
                   aria-current="page"
-                  href="/"
+                  href="HomePage"
                   style={{ color: "white" }}
                 >
                   Home
