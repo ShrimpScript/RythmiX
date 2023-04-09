@@ -1,5 +1,5 @@
 import "bootstrap/dist/js/bootstrap.bundle.js";
-import "styles/NavBar.css";
+import "./styles/NavBar.css";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
 function NavBar() {
@@ -41,7 +41,11 @@ function NavBar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#" style={{ color: "white" }}>
+                <a
+                  className="nav-link"
+                  href="Features"
+                  style={{ color: "white" }}
+                >
                   Features
                 </a>
               </li>

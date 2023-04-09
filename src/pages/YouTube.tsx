@@ -1,4 +1,5 @@
 import React from "react";
+import "../components/styles/NavBar.css";
 
 function YouTube() {
   return (
@@ -11,7 +12,7 @@ function YouTube() {
             placeholder="Youtube Url"
             aria-label="Search"
           />
-          <button className="btn btn-outline-success" type="submit">
+          <button className="btn btn-outline-success yt" type="submit">
             Download
           </button>
         </form>
