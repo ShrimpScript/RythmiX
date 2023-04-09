@@ -62,7 +62,7 @@ function NavBar() {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="YouTube">
+                    <a className="dropdown-item" href="Player">
                       YouTube
                     </a>
                   </li>
