@@ -15,6 +15,7 @@ function YouTube() {
           <button className="btn btn-outline-success yt" type="submit">
             Download
           </button>
+          <div className="about-info"></div>
         </form>
       </div>
     </nav>
