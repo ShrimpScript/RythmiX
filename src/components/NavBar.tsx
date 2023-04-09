@@ -29,18 +29,13 @@ function NavBar() {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" href="/">
                   Home
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
                   Features
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Pricing
                 </a>
               </li>
               <li className="nav-item dropdown">
@@ -51,22 +46,22 @@ function NavBar() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown link
+                  Upload Music
                 </a>
                 <ul className="dropdown-menu">
                   <li>
                     <a className="dropdown-item" href="#">
-                      Action
+                      YouTube
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                      Another action
+                      Spotify
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                      Something else here
+                      Mp3
                     </a>
                   </li>
                 </ul>
